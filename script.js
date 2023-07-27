@@ -10,7 +10,7 @@ function excuseGenerator(who, what, when){
 }
 
 function onLoad(){
-    var excusa = document.getElementById('excuse');
+    let excusa = document.getElementById('excuse');
     excusa.innerHTML = excuseGenerator(who, what, when);
 }
 

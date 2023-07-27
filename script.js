@@ -3,9 +3,9 @@ let what = ['reescribió','cambió','borró','publicó', 'filtró'];
 let when = ['anoche mientras me convertí en licántropo!','cuando salí a comprar una energética!','mientras practicaba yoga!'];
 
 function excuseGenerator(who, what, when){
-    var numWho = Math.floor(Math.random() * who.length);
-    var numWhat = Math.floor(Math.random() * what.length);
-    var numWhen = Math.floor(Math.random() * when.length);
+    let numWho = Math.floor(Math.random() * who.length);
+    let numWhat = Math.floor(Math.random() * what.length);
+    let numWhen = Math.floor(Math.random() * when.length);
     return who[numWho] + " " + what[numWhat] + " " + "mi código" + " " + when[numWhen];
 }
 
